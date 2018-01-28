@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-file-downloader",
+  "version": "1.0.0",
+  "description": "API for download files in puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/zhigang1992/puppeteer-file-downloader.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "download"
+  ],
+  "author": "zhigang1992@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhigang1992/puppeteer-file-downloader/issues"
+  },
+  "homepage": "https://github.com/zhigang1992/puppeteer-file-downloader#readme",
+  "dependencies": {
+    "tmp": "^0.0.33"
+  }
+}
