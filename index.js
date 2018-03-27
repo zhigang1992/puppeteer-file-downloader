@@ -10,6 +10,7 @@ const parseDataUrl = (dataUrl) => {
 };
 
 const _fetchInPage = async ({file, options}) => {
+  options = Object.assign({ credentials: 'same-origin' }, options );
   const response = await fetch(file, options);
   if (!response.ok) {
     throw new Error(`Could not download file, (status ${response.status}`);
